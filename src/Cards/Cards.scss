@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+.Card{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+
+    color: white;
+    padding: 50px;
+}
+.informations img, h1, p{
+    margin-bottom: 25px;
+}
+
+.informations h1{
+    font-family: "Big Shoulders Display";
+}
+
+.informations p{
+    font-family: "Lexend Deca";
+}
+
+
+button{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 12px;
+    font-weight: 700;
+
+    width: 150px;
+
+    margin-top: 30px;
+    cursor: pointer;
+
+    font-family: "Lexend Deca";
+}
+
+button:hover{
+    background-color: transparent;
+    color: #fff;
+}
